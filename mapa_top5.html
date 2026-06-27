@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4482a1a73fb1b24f641cb7d6a6e7690c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4482a1a73fb1b24f641cb7d6a6e7690c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4482a1a73fb1b24f641cb7d6a6e7690c = L.map(
+                "map_4482a1a73fb1b24f641cb7d6a6e7690c",
+                {
+                    center: [15.0, -30.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e617de88823d20e0ba772bab49a6b726 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_e617de88823d20e0ba772bab49a6b726.addTo(map_4482a1a73fb1b24f641cb7d6a6e7690c);
+        
+    
+            var marker_b88fb5b2373fee378d8e6e192df21e86 = L.marker(
+                [43.65050267328007, -79.52201591316889],
+                {
+}
+            ).addTo(map_4482a1a73fb1b24f641cb7d6a6e7690c);
+        
+    
+            var icon_bc6006216b7ce9689bdf84b1d4ae997c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_94f5bc5d8f11dc0d5f93324d5abaf1c1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6150688bbb87ce126931758e27713355 = $(`<div id="html_6150688bbb87ce126931758e27713355" style="width: 100.0%; height: 100.0%;">         <b>Mean Girls</b><br>         Director: Mark Waters<br>         Año: 2004<br>         Género: Comedia<br>         Productora: Paramount Pictures<br>         Premios: True<br>         Protagonista: Lindsay Lohan         </div>`)[0];
+                popup_94f5bc5d8f11dc0d5f93324d5abaf1c1.setContent(html_6150688bbb87ce126931758e27713355);
+            
+        
+
+        marker_b88fb5b2373fee378d8e6e192df21e86.bindPopup(popup_94f5bc5d8f11dc0d5f93324d5abaf1c1)
+        ;
+
+        
+    
+    
+                marker_b88fb5b2373fee378d8e6e192df21e86.setIcon(icon_bc6006216b7ce9689bdf84b1d4ae997c);
+            
+    
+            var marker_0e75a3b46b28a5abb2162ced799e2a26 = L.marker(
+                [-37.8136, 144.9631],
+                {
+}
+            ).addTo(map_4482a1a73fb1b24f641cb7d6a6e7690c);
+        
+    
+            var icon_a4846138aad7af822961507cebdb1375 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3152bbeb7fa07c288f4760f33dff5c78 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b7d9bdcc68922116f17eae76e86b84d3 = $(`<div id="html_b7d9bdcc68922116f17eae76e86b84d3" style="width: 100.0%; height: 100.0%;">         <b>The Amazing Digital Circus</b><br>         Director: Gooseworx<br>         Año: 2023<br>         Género: Animación / Fantasía<br>         Productora: Glitch Productions<br>         Premios: True<br>         Protagonista: Lizzie Freeman         </div>`)[0];
+                popup_3152bbeb7fa07c288f4760f33dff5c78.setContent(html_b7d9bdcc68922116f17eae76e86b84d3);
+            
+        
+
+        marker_0e75a3b46b28a5abb2162ced799e2a26.bindPopup(popup_3152bbeb7fa07c288f4760f33dff5c78)
+        ;
+
+        
+    
+    
+                marker_0e75a3b46b28a5abb2162ced799e2a26.setIcon(icon_a4846138aad7af822961507cebdb1375);
+            
+    
+            var marker_ee5d839841439c39f17b3a691a8528db = L.marker(
+                [40.7599, -73.9822],
+                {
+}
+            ).addTo(map_4482a1a73fb1b24f641cb7d6a6e7690c);
+        
+    
+            var icon_98f0adccc725cc27f6ff02f653658b9d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d3f2ee6555150527bbeddc2623c87595 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_66450f5e282d18f391b9cb3026026705 = $(`<div id="html_66450f5e282d18f391b9cb3026026705" style="width: 100.0%; height: 100.0%;">         <b>The Devil Wears Prada</b><br>         Director: David Frankel<br>         Año: 2006<br>         Género: Drama / Comedia<br>         Productora: 20th Century Fox<br>         Premios: True<br>         Protagonista: Anne Hathaway         </div>`)[0];
+                popup_d3f2ee6555150527bbeddc2623c87595.setContent(html_66450f5e282d18f391b9cb3026026705);
+            
+        
+
+        marker_ee5d839841439c39f17b3a691a8528db.bindPopup(popup_d3f2ee6555150527bbeddc2623c87595)
+        ;
+
+        
+    
+    
+                marker_ee5d839841439c39f17b3a691a8528db.setIcon(icon_98f0adccc725cc27f6ff02f653658b9d);
+            
+    
+            var marker_5e731ebf17fd7c927cf48a1daf8884f2 = L.marker(
+                [43.6304, -79.5291],
+                {
+}
+            ).addTo(map_4482a1a73fb1b24f641cb7d6a6e7690c);
+        
+    
+            var icon_157cdb58347ef75613f4c7a8230fde98 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_df9a6498cc1fdc5d1bfedfb03110f33d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d1a3392fc4333e94f73b3d080280809a = $(`<div id="html_d1a3392fc4333e94f73b3d080280809a" style="width: 100.0%; height: 100.0%;">         <b>El cuento de la Criada</b><br>         Director: Bruce Miller<br>         Año: 2017<br>         Género: Distopía / Drama<br>         Productora: Hulu Originals<br>         Premios: True<br>         Protagonista: Elisabeth Moss         </div>`)[0];
+                popup_df9a6498cc1fdc5d1bfedfb03110f33d.setContent(html_d1a3392fc4333e94f73b3d080280809a);
+            
+        
+
+        marker_5e731ebf17fd7c927cf48a1daf8884f2.bindPopup(popup_df9a6498cc1fdc5d1bfedfb03110f33d)
+        ;
+
+        
+    
+    
+                marker_5e731ebf17fd7c927cf48a1daf8884f2.setIcon(icon_157cdb58347ef75613f4c7a8230fde98);
+            
+    
+            var marker_75d57736088b07e30cca597cbff0e5e4 = L.marker(
+                [40.7583, -73.5303],
+                {
+}
+            ).addTo(map_4482a1a73fb1b24f641cb7d6a6e7690c);
+        
+    
+            var icon_5130c05f27d409f5ad1d2a81182e5472 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0385c59c421c2f9f440c907bd705c270 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d59cc36beb33e9ea8af84adce551c93e = $(`<div id="html_d59cc36beb33e9ea8af84adce551c93e" style="width: 100.0%; height: 100.0%;">         <b>Tick, Tick... Boom!</b><br>         Director: Lin-Manuel Miranda<br>         Año: 2021<br>         Género: Musical / Drama<br>         Productora: Netflix<br>         Premios: True<br>         Protagonista: Andrew Garfield         </div>`)[0];
+                popup_0385c59c421c2f9f440c907bd705c270.setContent(html_d59cc36beb33e9ea8af84adce551c93e);
+            
+        
+
+        marker_75d57736088b07e30cca597cbff0e5e4.bindPopup(popup_0385c59c421c2f9f440c907bd705c270)
+        ;
+
+        
+    
+    
+                marker_75d57736088b07e30cca597cbff0e5e4.setIcon(icon_5130c05f27d409f5ad1d2a81182e5472);
+            
+</script>
+</html>
