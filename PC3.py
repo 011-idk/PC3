@@ -68,7 +68,7 @@ selected = option_menu(
 # Verifica si el usuario ha seleccionado la opción "Inicio" en el menú de navegación horizontal.
 # OJO: En caso que elijas el menú de la barra lateral (sidebar) debes cambiar "selected" por  selected"
 if selected == 'Inicio':
-    st.markdown("<h1 style='text-align: center;'>Nombre del blog</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>Pensando computacionalmente</h1>", unsafe_allow_html=True)
     # Muestra un título principal utilizando HTML -> st.markdown("...", unsafe_allow_html=True)
     # La etiqueta <h1> define un encabezado de nivel 1 -> "<h1 ...>...</h1>"
     # El estilo CSS 'text-align: center' centra el texto -> style='text-align: center;'
@@ -78,7 +78,7 @@ if selected == 'Inicio':
     col1, col2 = st.columns(2)
 
     # Muestra una imagen en la primera columna
-    col1.image("ellie.png", caption='Ellie', width=300)
+    col1.image("Perfil.jpeg", caption='Perfil', width=300)
     # "ellie.png" es el archivo de imagen que se visualizará -> Aquí debes reemplazar por tu foto de perfil
     # El texto "Ellie" aparecerá como descripción de la imagen
     # width=300 establece el ancho de la imagen en 300 píxeles
@@ -101,13 +101,13 @@ if selected == 'Inicio':
     # unsafe_allow_html=True permite que Streamlit interprete las etiquetas HTML incluidas en la cadena
 
 elif selected == 'Experiencia':
-    st.markdown("<h1 style='text-align: center;'>Yo y mis intentos de programar </h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>Videos sobre programación (¿Salio bien?)</h1>", unsafe_allow_html=True)
 
     # Agregar un  texto para la respuesta
     texto_2 = """
     Aquí escribe tu experiencia aprendiendo a programar. 
-    ¿Cómo te sentiste al principio?, 
-    ¿Qué te ha enseñado la programación?, 
+    ¿Cómo te sentiste al principio?
+    ¿Qué te ha enseñado la programación?,
     ¿Qué te gusta de programar?, 
     ¿Qué te gustaría hacer con la programación en el futuro?
     ¿Cómo se relaciona lo que haz aprendido con tu carrera?
@@ -119,10 +119,13 @@ elif selected == 'Experiencia':
     # Formato A
     # Agregamos todo los videos realizados en las prácticas anteriores
     # Muestra un subtítulo para identificar el contenido del video
-    st.subheader("🎥 Video 1 - YouTube")
+    st.subheader("🎥 Video PC 1")
     # Inserta un video de YouTube directamente en la aplicación.
     # El usuario puede reproducirlo sin salir de Streamlit.
-    st.video("https://www.youtube.com/watch?v=X_Z7d04x9-E")
+    st.link_button(
+        "Ver video",
+        "https://drive.google.com/file/d/1vzIdZ-2aPHsql1zs43Q7Ewiy198UrhrF/view?usp=sharing"
+        )
     # Agrega una breve descripción del video.
     st.caption(
         "En este video se presenta ...., "
@@ -130,12 +133,12 @@ elif selected == 'Experiencia':
 
     # Formato B
     # Muestra un subtítulo para identificar el contenido del video
-    st.subheader("🎥 Video 1 - Google Drive")
+    st.subheader("🎥 Video PC 2")
     # Crea un botón que redirige al usuario a un video alojado en Google Drive. 
     # Al hacer clic, el video se abrirá en una nueva pestaña del navegador.
     st.link_button(
             "Ver video",
-            "https://drive.google.com/file/d/1REvRXSu3GuGD73w8j44135MkRiezd0gP/view?usp=drive_link"
+            "https://drive.google.com/file/d/1DGiJoJ-7uwrEowEEmzB16gABFyoMM0vO/view?usp=sharing"
         )
     # Agrega una breve descripción del video.
     st.caption(
@@ -143,16 +146,16 @@ elif selected == 'Experiencia':
     )
 
 elif selected == 'Gráficos':
-    st.markdown("<h2 style='text-align: center;'>El logro: Los 'Gráficos'</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center;'>'Gráficos...y un mapa'</h2>", unsafe_allow_html=True)
 
-    graficos = ['Gráfico_1', 'Gráfico_2', 'Mapa_1']
+    graficos = ['Harry_Potter', 'Real_Madrid', 'Tarjetas_Rojas', 'Barcelona', 'Top_5']
 
     grafico_seleccionado = st.selectbox('Selecciona un gráfico', graficos)
 
     # Mostramos el gráfico seleccionado
-    if grafico_seleccionado == 'Gráfico_1':
+    if grafico_seleccionado == 'Harry_Potter':
         # Título de la sección
-        st.subheader("📊 Gráfico 1: Lenguas aisladas")
+        st.subheader("📊 Harry Potter")
 
         # Interpretación del gráfico
         st.markdown(
@@ -169,13 +172,36 @@ elif selected == 'Gráficos':
 
         with col4:
             st.image(
-                "aisladas_base_datos.png",
+                "nube_palabras_harry_potter_1.png",
                 width=800
             )
 
-    elif grafico_seleccionado == 'Gráfico_2':
+    elif grafico_seleccionado == 'Real_Madrid':
         # Título de la sección
-        st.subheader("📊 Gráfico 2: Familias lingüísticas")
+        st.subheader("📊 SP1 - Real Madrid")
+
+        # Interpretación del gráfico
+        st.markdown(
+            """
+            <div style='text-align: justify; font-size: 18px;'>
+            Aquí debe ir una breve interpretación del gráfico.
+            Este histograma busca mostrar a modo de comparación los goles anotados y recibidos por el Real Madrid en sus partidos como visitante y local en la temporada 2025 - 2026.
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+
+        # Centrar la imagen
+        col6, col7, col8 = st.columns([1, 5, 1])
+
+        with col7:
+            st.image(
+                "goles_SP1.png",
+                width=800
+            )
+    elif grafico_seleccionado == 'Tarjetas_Rojas':
+        # Título de la sección
+        st.subheader("📊 Promedio de tarjetas rojas")
 
         # Interpretación del gráfico
         st.markdown(
@@ -192,25 +218,47 @@ elif selected == 'Gráficos':
 
         with col7:
             st.image(
-                "lengua_familia_GB.png",
+                "barras_verticales_promedio_tarjeta_rojas.png",
                 width=800
             )
-    elif grafico_seleccionado == 'Mapa_1':
+    elif grafico_seleccionado == 'Barcelona':
         # Título de la sección
-        st.subheader("🗺️ Mapa 1: Distribución geográfica")
+        st.subheader("📊 Pastelito de Barcelona")
+
+        # Interpretación del gráfico
+        st.markdown(
+            """
+            <div style='text-align: justify; font-size: 18px;'>
+            Aquí debe ir una breve interpretación del gráfico.
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+
+        # Centrar la imagen
+        col6, col7, col8 = st.columns([1, 5, 1])
+
+        with col7:
+            st.image(
+                "pastel_Barcelona (1).png",
+                width=800
+            )
+    elif grafico_seleccionado == 'Top_5':
+        # Título de la sección
+        st.subheader("🗺️ Series y Películas - Top 5")
 
         # Interpretación del mapa
         st.markdown(
             """
             <div style='text-align: justify; font-size: 18px;'>
-            Aquí debe ir una breve interpretación del mapa.
+            El mapa en cuestión muestra la ubicación en donde se grabaron escenas de mis series y películas favoritas. Debido a la cercanía de entre algunos de estos puntos los iconos se superponen en el mapa, pero se tratan de lugares distintos.
             </div>
             """,
             unsafe_allow_html=True
         )
 
         # Cargar el mapa HTML generado previamente
-        with open("mapa.html", "r", encoding="utf-8") as f:
+        with open("mapa_top5.html", "r", encoding="utf-8") as f:
             html_content = f.read()
 
         # Mostrar el mapa interactivo
