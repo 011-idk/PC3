@@ -86,9 +86,7 @@ if selected == 'Inicio':
     # Define una cadena de texto multilínea que contiene una guía para redactar una presentación personal.
     texto = """
     Aquí escribe una presentación creativa sobre ti.
-    Soy Joselyn Luis, soy de Lima, Perú y estudio la carrera de comunicación audiovisual en PUCP aka Cato. En esta nuevo ciclo estando ya en facultad, hay aspectos relacionados a mi carrera que me facinan como lo es la fotografía y la creación de guiones para productos audiovisuales, por más dificl que sea en
-    ocaciones. En un futuro que espero sea cercano, me gustaria trabajar como productora y/o directora en algun producción audiovisual, así como publicar algun rabajo fotográfico de los muchos que tengo pendientes por hecer de manera independiente. Fuera del ambito académico, disfruto mucho de ver películas y
-    series, así como analizarlas y teorizar al respecto, además de escuchar musica y practicar ¿Quién eres?, 
+    ¿Quién eres?, 
     ¿De dónde eres?, 
     ¿Qué estudias?, 
     ¿Qué te gusta de tu carrera?, 
