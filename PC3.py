@@ -106,11 +106,10 @@ elif selected == 'Experiencia':
     # Agregar un  texto para la respuesta
     texto_2 = """
     Aquí escribe tu experiencia aprendiendo a programar. 
-    ¿Cómo te sentiste al principio?
-    ¿Qué te ha enseñado la programación?,
-    ¿Qué te gusta de programar?, 
-    ¿Qué te gustaría hacer con la programación en el futuro?
-    ¿Cómo se relaciona lo que haz aprendido con tu carrera?
+    Este curso ha sido mi primer acercamiento a la programación, en un principio pense que sería bastante complicado e inicialmente hubieron temas que no entendía del todo, pero logre adaptarme y me encanto la idea de poder hacer mi propio blog desde cero. Aprender a programar a sido una experiencia
+    interesate y divertida, una vez lo entiendes se vuelve sensillo, uno de los aspectos que más me gustaron fueron las bibliotecas y los mapas interactivos. Esta experiencia me ha hecho plantearme el llevar un curso de especialización respecto a esto, me gustaría poder segui haciendolo en el futuro próximo, quizá
+    como medio para hacer visible proyetos personales relacionados con la fotografía. Y finalmente, considero que este curso es relevante para la carrera que estudio actualmente, comunicación audiovisual, ya que permite expandirme a un rubro mucho más amplio de acción, que me brinda mayores posibilidades laborales y
+    promoción de proyectos independientes en ambitos como la fotografía, e inclusive para la creación de noticias y/o analisis de datos, bastante importante en cualquier carrera laboral, a percepción personal.
     """
 
     # Mostramos el texto
@@ -161,7 +160,7 @@ elif selected == 'Gráficos':
         st.markdown(
             """
             <div style='text-align: justify; font-size: 20px;'>
-            En esta imagen se muestra una nube de palabras con, evidentemente, palabras relacionadas con un escrito de Harry Potter
+            En esta imagen se muestra una nube de palabras con, evidentemente, palabras extraidas de un escrito de Harry Potter
             </div>
             """,
             unsafe_allow_html=True
