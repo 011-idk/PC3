@@ -85,7 +85,9 @@ if selected == 'Inicio':
 
     # Define una cadena de texto multilínea que contiene una guía para redactar una presentación personal.
     texto = """
-    Aquí escribe una presentación creativa sobre ti.
+    Hola! Soy Joselyn, soy de Lima, Perú y estudio la carrera de comunicación audiovisual en PUCP aka Cato. Escogí esta carrera ya que me apasiona el cine y en si la producción de material audiovisual, el cual es uno de los aspectos por los cuales me encanta esta carrera, aun con sus complicaciones. En un futuro que
+    espero sea proximo, me gustaria trabajar como parte de la producción y/o dirección de material audiovisual, así como generar contenido en linea sobre analisis de peliculas, series, entre otros. Además de publicar proyectos independientes relacionados a la fotografía. En lo que respecta a un ambito fuera de lo académico,
+    me encanta ver series y películas, así como escuchar música y, de vez en cuando, hacer manualidades. También me encantan tomar fotografias, y practicar deportes
     ¿Quién eres?, 
     ¿De dónde eres?, 
     ¿Qué estudias?, 
@@ -105,7 +107,6 @@ elif selected == 'Experiencia':
 
     # Agregar un  texto para la respuesta
     texto_2 = """
-    Aquí escribe tu experiencia aprendiendo a programar. 
     Este curso ha sido mi primer acercamiento a la programación, en un principio pense que sería bastante complicado e inicialmente hubieron temas que no entendía del todo, pero logre adaptarme y me encanto la idea de poder hacer mi propio blog desde cero. Aprender a programar a sido una experiencia
     interesate y divertida, una vez lo entiendes se vuelve sensillo, uno de los aspectos que más me gustaron fueron las bibliotecas y los mapas interactivos. Esta experiencia me ha hecho plantearme el llevar un curso de especialización respecto a esto, me gustaría poder segui haciendolo en el futuro próximo, quizá
     como medio para hacer visible proyetos personales relacionados con la fotografía. Y finalmente, considero que este curso es relevante para la carrera que estudio actualmente, comunicación audiovisual, ya que permite expandirme a un rubro mucho más amplio de acción, que me brinda mayores posibilidades laborales y
