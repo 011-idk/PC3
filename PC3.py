@@ -87,13 +87,7 @@ if selected == 'Inicio':
     texto = """
     Hola! Soy Joselyn, soy de Lima, Perú y estudio la carrera de comunicación audiovisual en PUCP aka Cato. Escogí esta carrera ya que me apasiona el cine y en si la producción de material audiovisual, el cual es uno de los aspectos por los cuales me encanta esta carrera, aun con sus complicaciones. En un futuro que
     espero sea proximo, me gustaria trabajar como parte de la producción y/o dirección de material audiovisual, así como generar contenido en linea sobre analisis de peliculas, series, entre otros. Además de publicar proyectos independientes relacionados a la fotografía. En lo que respecta a un ambito fuera de lo académico,
-    me encanta ver series y películas, así como escuchar música y, de vez en cuando, hacer manualidades. También me encantan tomar fotografias, y practicar deportes
-    ¿Quién eres?, 
-    ¿De dónde eres?, 
-    ¿Qué estudias?, 
-    ¿Qué te gusta de tu carrera?, 
-    ¿Qué te gustaría hacer en el futuro?, 
-    ¿Qué te gusta hacer en tu tiempo libre?
+    me encanta ver series y películas, así como escuchar música y, de vez en cuando, leer libros, especialmente de terror y/o distopicos. También me encantan tomar fotografias, y practicar deportes de contacto, como actualmente hago practicando taekwondo. Y eso es toda la info básica sobre mi, gracias!
     """
 
     # Muestra el texto en la segunda columna utilizando HTML
