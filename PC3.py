@@ -128,7 +128,7 @@ elif selected == 'Experiencia':
         )
     # Agrega una breve descripción del video.
     st.caption(
-        "En este video se presenta ...., "
+        "En este video se presenta las diferencias entre string y listas en python, con ejemplos propios de estas diferencias para permitir un mejor entendimiento"
     )
 
     # Formato B
@@ -142,7 +142,7 @@ elif selected == 'Experiencia':
         )
     # Agrega una breve descripción del video.
     st.caption(
-        "En este video se presenta ...., "
+        "En este video se presenta las diferencias entre un bucle for y bucle while, empezando desde un análisis de los conceptos hasta las diferencias entre los mismos con ejemplos claros para su mejor entendimiento"
     )
 
 elif selected == 'Gráficos':
@@ -161,7 +161,7 @@ elif selected == 'Gráficos':
         st.markdown(
             """
             <div style='text-align: justify; font-size: 20px;'>
-            Aquí debe ir una breve interpretación de tu gráfico.
+            En esta imagen se muestra una nube de palabras con, evidentemente, palabras relacionadas con un escrito de Harry Potter
             </div>
             """,
             unsafe_allow_html=True
@@ -184,7 +184,6 @@ elif selected == 'Gráficos':
         st.markdown(
             """
             <div style='text-align: justify; font-size: 18px;'>
-            Aquí debe ir una breve interpretación del gráfico.
             Este histograma busca mostrar a modo de comparación los goles anotados y recibidos por el Real Madrid en sus partidos como visitante y local en la temporada 2025 - 2026.
             </div>
             """,
@@ -207,7 +206,7 @@ elif selected == 'Gráficos':
         st.markdown(
             """
             <div style='text-align: justify; font-size: 18px;'>
-            Aquí debe ir una breve interpretación del gráfico.
+            En el siguiente grafico de barras se busca mostrar el promedio de tarjetas rojas que los equipos recibieron como locales en promedio con los goles anotados.
             </div>
             """,
             unsafe_allow_html=True
@@ -229,7 +228,7 @@ elif selected == 'Gráficos':
         st.markdown(
             """
             <div style='text-align: justify; font-size: 18px;'>
-            Aquí debe ir una breve interpretación del gráfico.
+            El siguiente gráfico muesra los resultados de los partidos ganados, perdidos y empatados de Barcelona como visitante en el SP1 2025-2026.
             </div>
             """,
             unsafe_allow_html=True
